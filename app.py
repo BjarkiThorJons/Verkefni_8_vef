@@ -84,4 +84,4 @@ def karfa():
 @route('/s')
 def delete():
     return template('templates/index2.tpl')
-run(host='0.0.0.0', port=argv[1])
+run(app=app, host='0.0.0.0', port=argv[1])
